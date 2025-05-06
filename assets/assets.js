@@ -1,9 +1,11 @@
+import api_icon from './api-icon.png';
 import arrow_icon_dark from './arrow-icon-dark.png';
 import arrow_icon from './arrow-icon.png';
 import close_black from './close-black.png';
 import close_white from './close-white.png';
 import code_icon_dark from './code-icon-dark.png';
 import code_icon from './code-icon.png';
+import database_icon from './database-icon.png';
 import download_icon from './download-icon.png';
 import edu_icon_dark from './edu-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -28,6 +30,7 @@ import postman from './postman.png';
 import profile_img from './profile-img.png';
 import project_icon_dark from './project-icon-dark.png';
 import project_icon from './project-icon.png';
+import react_icon from './react-icon.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_white from './right-arrow-white.png';
@@ -38,6 +41,7 @@ import ui_icon from './ui-icon.png';
 import user_image from './user-image.png';
 import vscode from './vscode.png';
 import web_icon from './web-icon.png';
+
 
 export const assets = {
     user_image,
@@ -79,7 +83,10 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    api_icon,
+    database_icon,
+    react_icon
 };
 
 export const workData = [
@@ -106,14 +113,17 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Full Stack MERN Development', description: 'I develop scalable and efficient web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js), delivering high-performance solutions tailored to your business requirements....', link: '' },
+
+    { icon: assets.api_icon, title: 'Custom API Development & Integration', description: 'I create and integrate RESTful APIs using Node.js and Express.js, enabling seamless communication between your frontend and backend systems...', link: '' },
+
+    { icon: assets.database_icon, title: 'Database Management with MongoDB', description: 'I design and manage NoSQL databases using MongoDB, ensuring secure, optimized, and scalable data storage solutions for your applications...', link: '' },
+ 
+    { icon: assets.react_icon, title: 'Responsive and Dynamic Frontend with React.js', description: 'I build modern, interactive, and responsive user interfaces using React.js, ensuring a smooth and engaging experience across all devices...', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, React Js, Node Js, Express Js, BootStrap, Java, springBoot, MongoDB, mySql, Git & GitHub, postman' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML/CSS, JavaScript, React Js, Node Js, Express Js, BootStrap, Java,JDBC, springBoot, MongoDB, mySql, postgresql, Git & GitHub, postman' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of science in Computer Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
